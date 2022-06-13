@@ -41,6 +41,7 @@ local mock_device = test.mock_device.build_test_zigbee_device(
     }
 )
 
+
 zigbee_test_utils.prepare_zigbee_env_info()
 local function test_init()
   test.mock_device.add_test_device(mock_device)
